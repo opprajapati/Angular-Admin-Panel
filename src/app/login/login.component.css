@@ -1,0 +1,43 @@
+.lgldPage{
+    background-image: url("src\assets\v915-techi-011.jpg");
+}
+.lg-form{
+    height: 400px;
+    width: 350px;
+    margin-left: 50px;
+    border-radius: 7px;
+   
+}
+/* .gd-gt2{
+   
+}
+.gd-gt1{
+    background-color: rgb(183, 231, 229);
+} */
+.gd-tg1-msg{
+    margin-right: 100px;
+    margin-left: 70px;
+}
+mat-form-field {
+   margin-top: 40px;
+   margin-left: 70px;
+}
+mat-label{
+    padding: 20px;
+}
+.lgheading{
+   margin-left: 100px;
+    margin-top: 60px;
+    color:brown;
+}
+.lgbtn{
+    text-align: center;
+}
+.lg-to-signup{
+    margin-left: 30px;
+}
+.lg-to-signup a{
+    text-decoration: none;
+}
+
+

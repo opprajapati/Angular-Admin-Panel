@@ -1,0 +1,102 @@
+{
+  "users": [
+    {
+      "name": "Rahul Chomu",
+      "gender": "Male",
+      "email": "rahul@gmail.com",
+      "phone": 4561337845,
+      "password": "rahul@123",
+      "id": 1
+    },
+    {
+      "name": "Karina Kaif",
+      "gender": "Male",
+      "email": "katrina@gmail.com",
+      "phone": 1234567891,
+      "password": "katrina@123",
+      "id": 2
+    },
+    {
+      "name": "Kristan Stetwert",
+      "gender": "Male",
+      "email": "kristan@gmail.com",
+      "phone": 4561237892,
+      "password": "kristan@123",
+      "id": 3
+    },
+    {
+      "name": "Jems Patinson",
+      "gender": "Male",
+      "email": "jems@gmail.com",
+      "phone": 7894512364,
+      "password": "jems@123",
+      "id": 4
+    },
+    {
+      "name": "Lakhwindar Singh",
+      "gender": "Male",
+      "email": "lakhwindar@gmail.com",
+      "phone": 7418529633,
+      "password": "lakhwindar@123",
+      "id": 5
+    },
+    {
+      "name": "Mohan das",
+      "gender": "Male",
+      "email": "mohan@gmail.com",
+      "phone": 9658741235,
+      "password": "mohan@123",
+      "id": 6
+    },
+    {
+      "name": "Kate winston",
+      "gender": "Female",
+      "email": "kate@gmail.com",
+      "phone": 5412632145,
+      "password": "kate@123",
+      "id": 7
+    },
+    {
+      "name": "Trisha",
+      "gender": "Female",
+      "email": "trisha@gmail.com",
+      "phone": 8529647135,
+      "password": "trisha@gmail.co",
+      "id": 8
+    },
+    {
+      "name": "Saurav Ganguli",
+      "gender": "Male",
+      "email": "saurav@gmail.com",
+      "phone": 6532614258,
+      "password": "saurav@123",
+      "id": 9
+    },
+    {
+      "name": "Murari Bapu",
+      "gender": "Male",
+      "email": "murali@gmail.com",
+      "phone": 564213799,
+      "password": "murari@123",
+      "id": 10
+    },
+    {
+      "name": "Anna Krema",
+      "gender": "Female",
+      "email": "anna@gmail.com",
+      "phone": 852974615,
+      "password": "anna@gmail.com",
+      "id": 11
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

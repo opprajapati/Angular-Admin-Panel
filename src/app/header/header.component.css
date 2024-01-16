@@ -1,0 +1,13 @@
+.header-nav{
+    height: 40px;
+    background-color: #9bb8f7;
+}
+.header-nav .profilePic{
+    float: right;
+    margin-right: 30px;
+}
+.header-nav .profilePic img{
+    height: 35px;
+   background-color: rgb(247, 230, 238);
+   border-radius: 17px;
+}

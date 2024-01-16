@@ -1,0 +1,27 @@
+.sgPage{
+    background-image: url("src\assets\v915-techi-011.jpg");
+   
+    height: 600px;
+}
+form{
+    padding-top: 100px;
+    padding-left: 450px;
+}
+.sgbtn{
+    margin-left: 120px;
+   
+}
+mat-form-field{
+    padding: 20px;
+}
+.sgHeading{
+    margin-left: 120px;
+    color: brown;
+}
+.sg-to-lg{
+    margin-left: 500px;
+}
+.sg-to-lg a{
+    text-decoration: none;
+}
+

@@ -1,0 +1,35 @@
+<div class="sgPage">
+    <form class="signup-form" [formGroup]="signUp" (ngSubmit)="onSignUp(signUp.value)">
+        <div class="sgHeading"><h5>Create Account</h5></div>
+        <br>
+        <table class="example-full-width" cellspacing="0"><tr>
+          <td><mat-form-field class="example-full-width">
+            <mat-label>Name</mat-label>
+            <input matInput type="text" formControlName="name">
+          </mat-form-field></td>
+          <td><mat-form-field class="example-full-width">
+            <mat-label>Gender</mat-label>
+            <input matInput type="text" formControlName="gender">
+          </mat-form-field></td>
+        </tr></table>     
+        <table class="example-full-width" cellspacing="0"><tr>
+          <td><mat-form-field class="example-full-width">
+            <mat-label>Email</mat-label>
+            <input matInput type="email" formControlName="email">
+          </mat-form-field></td>
+          <td><mat-form-field class="example-full-width">
+            <mat-label>Phone</mat-label>
+            <input matInput type="number" formControlName="phone">
+          </mat-form-field></td></tr>
+          <td><mat-form-field class="example-full-width">
+            <mat-label>Create Password</mat-label>
+            <input matInput type="password" maxlength="15" placeholder="must be greter than 6 character" formControlName="password">
+            <mat-hint ></mat-hint>
+          </mat-form-field></td>
+        </table>
+        <br>
+        <div class="sgbtn"><button mat-raised-button color="primary">Create</button></div>
+      </form>
+      <br>
+      <div class="sg-to-lg">Already have account! <a routerLink="/login">login</a></div>
+</div>

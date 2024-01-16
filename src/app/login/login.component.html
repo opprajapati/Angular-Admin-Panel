@@ -1,0 +1,36 @@
+<div class="lgldPage">
+  <mat-grid-list cols="2" rowHeight="600px" [gutterSize]="'0'">
+    <mat-grid-tile class="gd-gt1">
+      <div class="gd-tg1-msg">
+        <h4>Welcome Back !</h4>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum,
+          eligendi omnis. Perferendis aspernatur debitis exercitationem quas
+          architecto nemo deserunt ut minus earum eveniet veritatis, placeat
+          velit commodi tempore, consequuntur ratione.
+        </p>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile class="gd-gt2">
+      <div class="lg-form">
+        <h4 class="lgheading">Login</h4>
+        <form [formGroup]="loginForm" (ngSubmit)="onLogin(loginForm.value)">
+          <mat-form-field>
+            <mat-label>Email</mat-label>
+            <input matInput type="email" required formControlName="email" />   
+          </mat-form-field>
+          <mat-form-field>
+            <mat-label>Password</mat-label>
+            <input matInput type="password" required formControlName="password" />   
+          </mat-form-field>
+          <div class="lgbtn"><button mat-raised-button color="primary">Login</button></div>
+        </form>
+        <br>
+        <div class="lg-to-signup">
+            <h6>Don't have account!<a routerLink="/signup">&nbsp;Register</a></h6>
+        </div>
+      </div>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
+

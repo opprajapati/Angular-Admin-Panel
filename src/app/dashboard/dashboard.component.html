@@ -1,0 +1,68 @@
+<div class="dashboard-container">
+<mat-grid-list class="gdCard1" cols="3" rowHeight="140px" [gutterSize]="'25px'">
+    <mat-grid-tile class="gd-gt1">
+      <div class="gd-gt1-toal">
+       <div>
+        <h6>Total Users</h6>
+        <br>
+        <p class="data-size">7689</p>
+        <p class="data-size">10% increase</p>
+      </div>
+       <div><img class="imgrevenu" src="assets\totalUser.png"></div>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile class="gd-gt1">
+      <div class="gd-gt1-toal">
+        <div class="user_data">
+          <h6>Active Users</h6>
+          <br>
+          <p class="data-size">2346</p>
+          <p class="data-size">3% increase</p>
+        </div>
+        <div><img class="imgrevenu" src="assets\activeusers.jpg"></div>
+       </div>
+    </mat-grid-tile>
+    <mat-grid-tile class="gd-gt1">
+      <div class="gd-gt1-toal">
+        <div>
+          <h6>Revenu</h6>
+          <br>
+          <p class="data-size">$ 5674</p>
+          <p class="data-size">27 % increase</p>
+        </div>
+        <div><img class="imgrevenu" src="assets\revenu.jpg"></div>
+       </div>
+    </mat-grid-tile>
+  </mat-grid-list>
+  <br>
+<br>
+  <mat-grid-list class="gdCard2" cols="2" rowHeight="260px" [gutterSize]="'60px'">
+    <mat-grid-tile class="gd-gt2">1</mat-grid-tile>
+    <mat-grid-tile class="gd-gt2">2</mat-grid-tile>
+  </mat-grid-list>
+</div>
+<div class="user_table">
+  <h6 class="userheading"> Top Users</h6> 
+  <table class="table table-striped">
+   <thead>
+     <tr >
+       <th>Id</th>
+       <th scope="col">Name</th>
+       <th scope="col">Email</th>
+       <th scope="col">Gender</th>
+       <th scope="col">Contact</th>
+     </tr>
+   </thead>
+   <tbody>
+     <tr *ngFor="let data of topUser ">
+       <td>{{data.id}}</td>
+       <td>{{data.name}}</td>
+       <td>{{data.email}}</td>
+       <td>{{data.gender}}</td>
+       <td>{{data.phone}}</td>
+     </tr>
+     <tr>     
+   </tbody>
+ </table>
+</div>
+
